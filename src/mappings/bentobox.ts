@@ -57,7 +57,7 @@ export function handleLogDeploy(event: LogDeploy): void {
     lendingPair.feeTo = lendingPairContract.feeTo()
     lendingPair.feesPendingAmount = BIG_INT_ZERO
     lendingPair.lastBlockAccrued = BIG_INT_ZERO
-    lendingPair.interestPerBlock = BigInt.fromI32(4566210045)
+    lendingPair.interestPerBlock = BIG_INT_ZERO
     lendingPair.masterContract = lendingPairContract.masterContract()
     lendingPair.name = lendingPairContract.name()
     lendingPair.oracle = lendingPairContract.oracle()
